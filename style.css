@@ -190,3 +190,8 @@ footer .backend{
           display: none;
      }
 }
+@media (max-width:465px) {
+     .up{
+          margin-left: -160px;
+     }
+}
