@@ -1,0 +1,197 @@
+* {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+nav {
+     display: flex;
+     background-color: #262626;
+     color: #fff;
+}
+
+nav article {
+     padding: 10px;
+     display: flex;
+     margin-top: 20px;
+}
+
+nav img {
+     width: 100px;
+     height: 100px;
+     margin-top: -10px;
+     border-radius: 50%;
+     margin-left: 50px;
+}
+
+nav h1 {
+     margin-top: 30px;
+}
+
+nav .MY-Name {
+     margin-left: 30px
+}
+
+nav .end {
+     margin-top: 31.5px;
+     display: flex;
+     margin-left: 950px;
+}
+
+nav .end a {
+     text-decoration: none;
+     color: #fff;
+     font-weight: bolder;
+     text-transform: capitalize;
+     margin-left: 20px;
+}
+
+nav .end a:hover {
+     text-decoration: underline;
+}
+
+/* ======================= */
+section {
+     margin-left: 200px;
+     margin-top: 100px;
+     padding: 10px;
+}
+.up{
+     display: flex;
+     height: 100vh;
+}
+.up section{
+     margin-top: 250px;
+}
+.up img{
+     height: 60vh;
+     margin-top: 100px;
+     margin-left: 200px;
+     width: 700px;
+}
+section p{
+     text-transform: capitalize;
+     margin-top: 10px;
+}
+section button{
+     margin-top: 20px;
+     font-weight: bolder;
+     border: solid #262626;
+     padding: 10px;
+     background-color: #262626;
+     color: #fff;
+     cursor: pointer;
+}
+/* ----- footer --------- */
+footer{
+     height: 100%;
+}
+footer .whoiam h1{
+     color: #000;
+}
+footer .whoiam h1,footer .whoiam p{
+margin-left: 100px;
+}
+footer .whoiam p{
+color: #0077b7;
+}
+footer .whoiam a{
+     text-decoration: none;
+     color: #000;
+}
+footer p{
+     font-weight: bolder;
+     text-transform: capitalize;
+     margin-top: 20px;
+}
+footer .webdesigner{
+     padding: 10px;
+     margin-top: -22px;
+     box-shadow: 2px 2px 2px 5px;
+     border: solid #000;
+     width: fit-content;
+     margin-left: 200px;
+}
+footer .webdesigner img{
+     width: 10vh;
+}
+footer .webdesigner h1{
+     margin-top: 20px;
+     text-transform: capitalize;
+}
+footer .backend{
+     padding: 10px;
+     box-shadow: 2px 2px 2px 5px;
+     border: solid #000;
+     width: fit-content;
+     margin-top: 50px;
+     margin-left: 200px;
+}
+/* skills */
+.skills{
+     margin: 0 20px 20px 0;
+     display: grid;
+     margin-top: 150px;
+}
+.skills footer .HTML5 .line{
+     border: solid #e63946;
+     width: 200px;
+     background-color: #e63946;
+     color: #fff;
+}
+.skills footer .CSS .line{
+     border: solid #1d3557;
+     width: 200px;
+     background-color: #1d3557;
+     color: #fff;
+}
+.skills footer .JS .line{
+     border: solid #fcca46;
+     width: 200px;
+     background-color: #fcca46;
+     color: #fff;
+}
+.skills footer .Py .line{
+     border: solid #3d5a80;
+     width: 200px;
+     background-color: #3d5a80;
+     color: #fff;
+}
+.skills footer .C .line{
+     border: solid #98c1d9;
+     width: 200px;
+     background-color: #98c1d9;
+     color: #fff;
+}
+.flex{
+     display: flex;
+     justify-content: space-evenly;
+}
+@media (max-width:1700px) {
+     nav article .end{
+          display: block;
+     }
+}
+@media (max-width:1400px) {
+     nav article .end{
+          padding: 40px;
+          margin-left: -160px;
+     }
+}
+@media (max-width:1235px) {
+     .up img{
+          margin-top: 230px;
+          width: 200px;
+          height: 200px;
+     }
+}
+@media (max-width:730px) {
+     .up img{
+          display: none;
+     }
+}
+@media (max-width:423px) {
+     .up section{
+          margin-left: -2px;
+     }
+}
